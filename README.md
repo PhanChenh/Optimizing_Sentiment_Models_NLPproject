@@ -33,3 +33,25 @@ Outline the models and embeddings being tested: GloVe, Word2Vec (CBOW and Skipgr
 ---
 
 ## Outcome
+
+After evaluating multiple word embeddings and models, the best-performing combination for sentiment analysis was found to be Word2Vec Skipgram embeddings combined with the LSTM model with Attention mechanism. This model outperformed others in terms of sentiment classification accuracy and interpretability.
+
+Word2Vec Skipgram embeddings provided superior word representation, especially for capturing semantic relationships between words, which enhanced the model's ability to understand context in customer reviews.
+The LSTM with Attention model further improved performance by allowing the model to focus on important parts of the review text, such as keywords related to aspects like "food," "service," or "ambience," thereby improving the overall sentiment prediction.
+
+Model Performance: 
+
+![image](https://github.com/user-attachments/assets/f9a84f07-81bc-4128-8fb2-d9b0b4e25b0a)
+Figure 1: Training loss over epoches and training accuracy over epochs
+
+Confusion matrix & classification report:
+![confusion_matrix](https://github.com/user-attachments/assets/641ee56c-85fe-44c2-8620-716eef466edf)
+
+![image](https://github.com/user-attachments/assets/ed464599-229e-4699-926b-7d532a35eb17)
+Figure 2: Attention visualization with aspect Staff
+
+
+![image](https://github.com/user-attachments/assets/906620a1-a65b-4bd7-b1a2-2acc7b0bb763)
+Figure 3: Attention visualization with aspect Service
+
+
