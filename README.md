@@ -30,6 +30,8 @@ Outline the models and embeddings being tested: GloVe, Word2Vec (CBOW and Skipgr
 - RNN Model: A basic Recurrent Neural Network model to establish a baseline for comparison.
 - GRU Model: Description of the GRU model and how it differs from LSTM, focusing on its simpler architecture and potential efficiency in training.
 
+For more detail information, you can have a look at jupyter notebook file and report file.
+
 ---
 
 ## Outcome
