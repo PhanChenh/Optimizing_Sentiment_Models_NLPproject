@@ -18,7 +18,7 @@ Sentiment analysis is a technique in natural language processing (NLP) and text 
 
 ## Dataset
 
-- The dataset used in this analysis is composed of three files: [train.json](data/train.json), [test.json](data/test.json), and [val.json](data/val.json).
+- The dataset used in this analysis is composed of three files: [train.json](Data/train.json), [test.json](Data/test.json), and [val.json](Data/val.json).
 - These files contain a total of 8,879 reviews for a single restaurant.
 - Each review is categorized into one of the following eight aspects: food, service, staff, price, ambience, menu, place, and miscellaneous. The sentiment associated with each review is classified as positive, negative, or neutral.
 
@@ -52,7 +52,7 @@ After evaluating multiple word embeddings and models, the best-performing combin
 
 ## How to run code
 
-1. Install Required Libraries: Ensure all necessary libraries such as pandas, matplotlib, seaborn, tensorflow, and gensim are installed like in the [file](SentimentAnalysis_RestaurantReview.ipynb)
+1. Install Required Libraries: Ensure all necessary libraries such as pandas, matplotlib, seaborn, tensorflow, and gensim are installed like in the [file](Optimizing_Sentiment_Models.ipynb)
 2. Load the Dataset: Import the dataset by loading the train.json, test.json, and val.json files.
 3. Run the Analysis Notebooks: Execute the analysis notebooks in Jupyter to process the data, build and train the model, and visualize the results.
 
