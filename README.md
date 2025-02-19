@@ -11,8 +11,39 @@
 - [Results & Visualizations](#results--visualizations)
 - [Recommendation](#recommendation)
 - [Contact](#contact)
-- 
 
+## Overview
+
+This project focuses on sentiment analysis of restaurant reviews using various word embeddings and sequence-to-sequence (seq2seq) models. The goal is to determine the most effective model and configuration for accurately classifying sentiment across different aspects of customer reviews.
+
+## Dataset
+
+- The dataset used in this analysis is composed of three files: [train.json](data/train.json), [test.json](data/test.json), and [val.json](data/val.json).
+- These files contain a total of 8,879 reviews for a single restaurant.
+- Each review is categorized into one of the following eight aspects: food, service, staff, price, ambience, menu, place, and miscellaneous. The sentiment associated with each review is classified as positive, negative, or neutral.
+
+## Objective
+
+The objective of this project is to evaluate and compare the performance of various word embedding techniques and seq2seq models for sentiment analysis. The goal is to identify the best-performing combination for analyzing customer sentiment based on review text.
+
+## Analysis Approach
+
+
+## Key Findings
+
+## How to run code
+
+## Technologies Used
+
+## Results & Visualizations
+
+## Recommendation
+
+## Contact
+
+📧 Email: pearriperri@gmail.com
+
+🔗 [LinkedIn](https://www.linkedin.com/in/phan-chenh-6a7ba127a/) | Portfolio
 
 
 -------------------------------------------
