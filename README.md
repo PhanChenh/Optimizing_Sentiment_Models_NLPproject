@@ -42,6 +42,10 @@ Text Preprocessing & Data Preparation
 - Ablation Study
   + RNN Model: Baseline model for comparison.
   + GRU Model: Alternative to LSTM with a simpler architecture and improved training efficiency.
+- Interpret Results:
+  + Comparing model performance reveals key factors (e.g., location, attention mechanisms) that impact sentiment prediction. The double attention LSTM is expected to provide the most detailed insights into review content and sentiment drivers.
+- Recommendation:
+  + The LSTM with Double Attention should be used for sentiment analysis to offer actionable insights into customer experience. Additionally, location-based sentiment analysis can help tailor strategies for different branches.
 
 ## Key Findings
 
