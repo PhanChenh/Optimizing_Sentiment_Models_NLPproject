@@ -100,7 +100,7 @@ Figure 8: Attention visualization with aspect Staff using best model
 ![image](https://github.com/user-attachments/assets/906620a1-a65b-4bd7-b1a2-2acc7b0bb763)
 Figure 9: Attention visualization with aspect Service using best model
 
-**Noted:** For details report, please go to this [report]()
+**Noted:** For details report, please go to this [report](Optimizing_Sentiment_Models_Report.pdf)
 
 ## Recommendation
 
