@@ -1,5 +1,23 @@
 # Project Title: Optimizing Sentiment Analysis Models for Accurate Predictions
 
+## Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Objective](#objective)
+- [Analysis Approach](#analysis-approach)
+- [Key Findings](#key-findings)
+- [How to run code](#how-to-run-code)
+- [Technologies Used](#technologies-used)
+- [Results & Visualizations](#results--visualizations)
+- [Recommendation](#recommendation)
+- [Contact](#contact)
+- 
+
+
+
+-------------------------------------------
+
+
 ## Project Overview:
 
 Dataset: train.json, test.json, and val.json
